@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 @RequiredArgsConstructor
-public class UserControllerServiceImpl {
+public class UserControllerService {
 
     private final CoreDemoProcessService coreDemoProcessService;
 
