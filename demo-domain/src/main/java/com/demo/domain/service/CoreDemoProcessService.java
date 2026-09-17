@@ -1,7 +1,9 @@
 package com.demo.domain.service;
 
+import com.demo.domain.model.UserDO;
+
 public interface CoreDemoProcessService {
 
-    String coreMethod();
+    UserDO coreMethod(String userId);
 
 }

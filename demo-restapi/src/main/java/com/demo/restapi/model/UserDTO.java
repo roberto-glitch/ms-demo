@@ -1,4 +1,4 @@
-package com.demo.domain.model;
+package com.demo.restapi.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

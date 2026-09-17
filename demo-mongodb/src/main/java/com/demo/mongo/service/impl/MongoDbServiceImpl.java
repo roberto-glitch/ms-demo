@@ -1,7 +1,7 @@
 package com.demo.mongo.service.impl;
 
 import com.demo.domain.model.UserDO;
-import com.demo.domain.service.DatabaseService;
+import com.demo.domain.outboundPort.DatabaseService;
 import org.springframework.stereotype.Service;
 
 @Service
