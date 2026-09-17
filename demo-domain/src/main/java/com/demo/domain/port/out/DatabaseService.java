@@ -1,4 +1,4 @@
-package com.demo.domain.outboundPort;
+package com.demo.domain.port.out;
 
 import com.demo.domain.model.UserDO;
 

@@ -1,7 +1,7 @@
 package com.demo.restapi;
 
 import com.demo.domain.model.UserDO;
-import com.demo.domain.service.CoreDemoProcessService;
+import com.demo.domain.port.in.CoreDemoProcessService;
 import com.demo.restapi.model.UserDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 @RequiredArgsConstructor
-public class UserControllerService {
+public class UserController {
 
     private final CoreDemoProcessService coreDemoProcessService;
 

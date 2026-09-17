@@ -1,8 +1,8 @@
-package com.demo.domain.service.impl;
+package com.demo.domain.port.in.impl;
 
 import com.demo.domain.model.UserDO;
-import com.demo.domain.service.CoreDemoProcessService;
-import com.demo.domain.outboundPort.DatabaseService;
+import com.demo.domain.port.in.CoreDemoProcessService;
+import com.demo.domain.port.out.DatabaseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

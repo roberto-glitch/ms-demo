@@ -1,4 +1,4 @@
-package com.demo.domain.service;
+package com.demo.domain.port.in;
 
 import com.demo.domain.model.UserDO;
 
