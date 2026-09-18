@@ -6,4 +6,6 @@ public interface CoreDemoProcessService {
 
     UserDO coreMethod(String userId);
 
+    <T> T getMedian(T[] array);
+
 }

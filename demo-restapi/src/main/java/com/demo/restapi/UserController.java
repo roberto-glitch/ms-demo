@@ -20,6 +20,12 @@ public class UserController {
         return mapper(coreDemoProcessService.coreMethod(id));
     }
 
+    @GetMapping("/getMedian")
+    public String getMedian() {
+        String[] array = {"uno", "due", "tre", "quattro", "cinque"};
+        return coreDemoProcessService.getMedian(array);
+    }
+
     private UserDTO mapper(UserDO userDO) {
         return new UserDTO(userDO.getNome(), userDO.getCognome());
     }
