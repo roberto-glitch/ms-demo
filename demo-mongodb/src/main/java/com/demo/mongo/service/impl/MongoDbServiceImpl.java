@@ -1,11 +1,21 @@
 package com.demo.mongo.service.impl;
 
 import com.demo.domain.model.UserDO;
+import com.demo.domain.port.in.UserDAO;
 import com.demo.domain.port.out.DatabaseService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class MongoDbServiceImpl implements DatabaseService {
+
+    private UserDAO userDAO;
+
+    /*@Override
+    public UserDO getUserById(String id) {
+        return userDAO.getUserDOById(id);
+    }*/
 
     @Override
     public UserDO getUserById(String id) {
